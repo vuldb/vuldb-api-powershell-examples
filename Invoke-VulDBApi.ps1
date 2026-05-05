@@ -28,7 +28,7 @@ $UserAgent = 'VulDB API Advanced PowerShell Demo Agent'
 $Headers = @{'User-Agent' = $UserAgent;'X-VulDB-ApiKey' = $PersonalApiKey}
 
 # URL VulDB endpoint
-$Uri = 'https://vuldb.com/?api'
+$Uri = 'https://vuldb.com/api'
 
 Function Main() {
 
